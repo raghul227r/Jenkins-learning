@@ -2,7 +2,7 @@
 
 echo "running the tests" > output.txt
 
-if [-f app.sh]; then
+if [ -f "/var/lib/jenkins/workspace/Git Test/Jenkins-learning/app.sh" ]; then
 echo "app.sh exists" >> output.txt
 else
 echo "doesnot exists" >> output.txt
