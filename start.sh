@@ -1,2 +1,2 @@
 #!/bin/bash
-./opt/myapp/app.sh
+./opt/myapp/Jenkins-learning/app.sh
