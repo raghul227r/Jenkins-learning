@@ -1,9 +1,8 @@
 #!/bin/bash
 
-./app.sh > app.log 2>&1 &
-
-PID=$!
-
-echo $PID > app.pid
-
-echo "Application started with PID: $PID"
+while true
+do
+    date >> /var/lib/jenkins/app.txt
+    echo "Application is running..."
+    sleep 10
+done
